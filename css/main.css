@@ -1,0 +1,1120 @@
+/* -----CRYPTO----- */
+
+:root {
+    --h-color: #23262F;
+    --p-color: #777E90;
+    --backround-color: #F7F7F7;
+    --buttons-background: #3772FF;
+    --red-backround: #D33535;
+    --green-backround: #58BD7D;
+
+}
+/* -----CRYPTO----- */
+
+section.crypto {
+    background-color: #fff;
+    height: 0px;
+}
+
+.crypto-content-container {
+    display: flex;
+    background-color: #fff;
+    top: -130px;
+    transform: translateY(-20%);
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    width: 92%;
+    left: 50%;
+    padding-bottom: 30px;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgb(235, 233, 233);
+
+
+}
+
+.crypto-content-container .crypto-header {
+    padding: 25px 30px;
+    padding-bottom: 0px;
+}
+
+.crypto-content-container .crypto-header ul {
+    display: flex;
+    padding-bottom: 20px;
+    gap: 50px;
+    list-style: none;
+    border-bottom: 1px solid rgb(223, 219, 219);
+}
+
+.crypto-content-container .crypto-header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.crypto-content-container .crypto-header ul li:first-child a {
+    background-color: var(--buttons-background);
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 20px;
+
+}
+
+
+.crypto-content {
+    display: flex;
+    gap: 30px;
+    padding: 0px 30px;
+
+}
+
+.crypto-content .same-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    width: 100%;
+
+}
+
+.crypto-content .same-content {
+    width: 25%;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+
+.crypto-content .same-content:not(.eth):hover {
+    box-shadow: 0px 0px 50px rgb(235, 233, 233);
+    transition: 0.6s;
+
+}
+
+.crypto-content .same-card .same-card-header a {
+    text-decoration: none;
+    color: var(--h-color);
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.crypto-content .same-card .same-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.crypto-content .same-card .same-card-header span {
+    color: var(--p-color);
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.crypto-content .same-card .same-card-center p {
+    font-size: 23px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.crypto-content .same-card .same-card-footer p {
+    color: var(--p-color);
+    font-size: 14px;
+}
+
+.crypto-content .same-card .same-card-footer span {
+    padding-left: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: var(--green-backround);
+}
+
+.crypto-content .same-card .same-card-footer span:not(.green-span) {
+    background-color: var(--red-backround);
+
+}
+
+.crypto-content .eth {
+    box-shadow: 0px 0px 50px rgb(235, 233, 233);
+
+}
+
+
+
+/* ------TABLE------ */
+
+
+section.table {
+    padding: 50px 60px;
+    padding-top: 250px;
+}
+
+section.table .table-container {
+    margin-top: 40px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-header .table-header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.table-header .table-header-left h2 {
+    font-size: 50px;
+
+}
+
+.table-header .table-header-left ul {
+    display: flex;
+    padding-bottom: 20px;
+    gap: 50px;
+    list-style: none;
+}
+
+.table-header .table-header-left li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.table-header .table-header-left ul li:first-child a {
+    background-color: var(--buttons-background);
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 25px;
+
+}
+
+
+.table-header .table-header-right a {
+    color: var(--h-color);
+    font-weight: bold;
+}
+
+.table-header .table-header-right {
+    padding-top: 20px;
+}
+
+
+.table-container table td {
+    padding: 25px 0px;
+
+}
+
+.table-container table td:first-child i {
+    color: var(--p-color);
+
+}
+
+
+.table-container table thead th {
+    border-bottom: 3px solid var(--h-color);
+    padding-bottom: 12px;
+    font-size: 18px;
+    color: var(--p-color);
+}
+
+
+.table-container table thead th:not(.not-left) {
+    text-align: left;
+}
+
+
+.table-container table tbody tr {
+    border-bottom: 1px solid rgb(226, 224, 224);
+}
+
+.table-container table tbody tr:hover {
+    background-color: #EBF1FF;
+
+}
+
+
+.table-container table tbody tr td:nth-child(2) {
+    padding-left: 18px;
+}
+
+
+.table-container table tbody tr td:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.table-container table tbody tr td:nth-child(3) a {
+    text-decoration: none;
+}
+
+.table-container table tbody tr td:nth-child(3) a:hover {
+    color: var(--buttons-background);
+    transition: 0.5s;
+}
+
+
+
+
+.table-container table tbody tr td {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.table-container table tbody tr td:nth-child(5) {
+    font-weight: 500;
+    color: var(--green-backround);
+}
+
+
+.table-container table tbody tr td:last-child a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13.5px;
+    color: var(--h-color);
+    font-weight: bold;
+    border: 1px solid rgb(214, 210, 210);
+}
+
+
+.table-container table tbody tr td.table-red {
+    color: var(--red-backround);
+}
+
+
+
+/* ----- HOW-IT----- */
+
+section.how-it-work {
+    background-color: #F7F7F7;
+    padding: 90px 0px;
+
+}
+
+section.how-it-work .how-it-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+section.how-it-work .how-it-header h2 {
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+section.how-it-work .how-it-header p {
+    font-size: 20px;
+    line-height: 1.3;
+    width: 30%;
+    color: var(--p-color);
+}
+
+section.how-it-work .how-it-work-content-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    gap: 60px;
+    text-align: center;
+}
+
+section.how-it-work .how-it-work-content-up .how-it-same-card-up img:hover  {
+    transform: rotateX(360deg);
+    background-color: #D33535;
+  
+}
+
+
+section.how-it-work .how-it-work-content-up p {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--p-color);
+}
+
+
+section.how-it-work .how-it-work-content-up .between-cards {
+    padding-bottom: 20px;
+}
+
+section.how-it-work .how-it-work-content-down {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+section.how-it-work .how-it-work-content-down a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--h-color);
+
+}
+
+section.how-it-work .how-it-work-content-down p {
+
+    font-size: 15px;
+    color: var(--p-color);
+    padding-top: 20px;
+    width: 65%;
+    text-align: center;
+
+}
+
+section.how-it-work .how-it-work-content-down .how-it-same-card-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* ----- WHAT-IS-ROCKIE ----- */
+
+section.what-is-rockie {
+    padding: 80px 50px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    gap: 30px;
+}
+
+section.what-is-rockie .rockie-left-image .rockie-img {
+    position: relative;
+}
+
+section.what-is-rockie .rockie-left-image .rockie-img::before {
+    position: absolute;
+    height: 90%;
+    width: 93.5%;
+    top: 0%;
+    left: 2.5%;
+    z-index: -1;
+    background-image: linear-gradient(to bottom right ,transparent, rgb(245, 243, 243));
+    content: "";
+
+}
+
+section.what-is-rockie .rockie-left-image .icons-rockie-x {
+    position: absolute;
+    top: -9%;
+    left: 28%;
+    z-index: 2;
+}
+
+
+section.what-is-rockie .rockie-left-image .icons-rockie-dolar {
+    position: absolute;
+    top: 6%;
+    left: 7%;
+    z-index: 2;
+}
+
+section.what-is-rockie .rockie-left-image .icons-rockie-tether {
+    position: absolute;
+    top: 74%;
+    left: 78%;
+    z-index: 2;
+}
+
+section.what-is-rockie .rockie-left-image .icons-rockie-eth {
+    position: absolute;
+    top: 70%;
+    left: -5%;
+    z-index: 2;
+}
+
+section.what-is-rockie .rockie-left-image .icons-rockie-bitcoin {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    z-index: 2;
+}
+
+
+
+section.what-is-rockie .rockie-texts {
+    padding: 0px 39px;
+    padding-bottom: 90px;
+
+
+}
+
+section.what-is-rockie .rockie-texts h2 {
+    font-size: 45px;
+    padding-bottom: 20px;
+
+}
+
+section.what-is-rockie .rockie-texts .big-p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: var(--p-color);
+}
+
+section.what-is-rockie .rockie-texts h4 {
+    font-size: 25px;
+    color: var(--h-color);
+    padding: 20px 0px;
+}
+
+section.what-is-rockie .rockie-texts .blue-icon i {
+    color: var(--buttons-background);
+    font-size: 20px;
+    padding-right: 15px;
+
+}
+
+
+section.what-is-rockie .rockie-texts p {
+    font-size: 16px;
+    color: var(--p-color);
+    line-height: 1.4;
+}
+
+section.what-is-rockie .rockie-texts .last-p {
+    font-size: 16px;
+    color: var(--p-color);
+    line-height: 1.4;
+    padding-bottom: 40px;
+}
+
+section.what-is-rockie .rockie-texts a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 35px;
+    background-color: var(--buttons-background);
+    color: #fff;
+    border-radius: 30px;
+
+}
+
+/* ----- FREE MONEY ----- */
+
+section.free-money {
+    background-color: #F7F7F7;
+    padding: 90px 50px;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+section.free-money .free-money-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+section.free-money .free-money-texts h2 {
+    font-size: 45px;
+    width: 80%;
+}
+
+section.free-money .free-money-texts .big-p {
+    font-size: 20px;
+    color: var(--p-color);
+}
+
+section.free-money .free-money-texts .small-p {
+    font-size: 15px;
+    color: var(--p-color);
+    padding-left: 35px;
+}
+
+section.free-money .free-money-texts h4 {
+    font-size: 25px;
+}
+
+section.free-money .free-money-texts .blue-icon i {
+    color: var(--buttons-background);
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+section.free-money .free-money-texts .download-images {
+    padding-top: 20px;
+}
+
+section.free-money .free-money-texts .download-images .left-img {
+margin-right: 10px;
+}
+section.free-money .free-money-image {
+    position: relative;
+   
+
+}
+section.free-money .free-money-image img {
+    padding-right: 30px;
+
+}
+
+section.free-money .free-money-image span.download {
+    position: absolute;
+    top: 13%;
+    left: 0%;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+
+
+/* ----- OUR-CUSTOMERS ----- */
+
+
+
+section.our-customers {
+display: flex;
+padding: 90px 50px;
+gap: 230px;
+}
+
+section.our-customers .our-customers-left img , section.our-customers .our-customers-right .profile-img  {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+section.our-customers .our-customers-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 36%;
+}
+
+section.our-customers .our-customers-left h2 {
+    font-size: 45px;
+}
+section.our-customers .our-customers-left h5 {
+    font-size: 20px;
+}
+section.our-customers .our-customers-left p {
+    color: var(--p-color);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+section.our-customers .our-customers-left .last-p {
+    font-size: 13px;
+    color: var(--p-color);
+    font-weight: bold;
+    margin-top: -5px;
+}
+section.our-customers .our-customers-left p span.blue-text{
+    color: var(--buttons-background);
+}
+
+
+section.our-customers .our-customers-right {
+    position: relative;
+    width: 52%;
+    padding-right: 30px;
+    border-left: 12px solid var(--buttons-background);
+    padding-left: 50px;
+    border-radius: 10px;
+}
+section.our-customers .our-customers-right::after {
+    position: absolute;
+    content: "''";
+    font-size: 90px;
+    top: -5%;
+    right: 7%;
+    color: var(--buttons-background);
+}
+
+section.our-customers .our-customers-right h3 {
+    padding-top: 50px;
+    font-size: 25px;   
+    line-height: 1.4; 
+    padding-bottom: 30px;
+}
+
+section.our-customers  .our-customers-right-profile {
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+}
+
+section.our-customers  .our-customers-right-profile .profile-texts {
+    margin-left: 20px;
+}
+
+section.our-customers  .our-customers-right-profile h6{
+    font-size: 19px;
+}
+section.our-customers  .our-customers-right-profile p{
+    font-size: 14px;
+    color: var(--p-color);
+    margin-top: 10px;
+}
+
+section.our-customers .our-customers-right  .our-customers-right-profile .logo-ipsum {
+    margin-left: auto;
+    width: 120px;
+    height: 30px;
+    
+}
+
+
+/* ----- EARN-UP ----- */
+
+section.earn-up {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6360DF;
+}
+
+section.earn-up .earn-up-left  {
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+section.earn-up .earn-up-left h3 {
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+section.earn-up .earn-up-left p {
+    font-size: 16px;
+    color: #fff;
+
+}
+
+section.earn-up .earn-up-right a {
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+
+
+@media (max-width: 767px) {
+
+
+   /* -----CRYPTO----- */
+
+   .crypto-content-container .crypto-header ul
+
+   {
+       display: flex;
+       flex-wrap: wrap;
+       padding-bottom: 20px;
+       gap: 15px 30px;
+       list-style: none;
+       border-bottom: 1px solid rgb(223, 219, 219);
+   }
+   
+   
+   .crypto-content
+    {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 20px;
+       padding: 0px 30px;
+   
+   }
+   
+   
+   .crypto-content .same-content 
+   {
+       width: 100%;
+       padding-top: 30px;
+       border-radius: 20px;
+   }
+   
+   
+   /* ------TABLE------ */
+   
+   
+   section.table 
+   {
+       padding: 50px 10px;
+       padding-top: 800px;
+   }
+
+   section.table .table-container {
+    width: 100%;
+    overflow-x: scroll;
+   }
+
+   .table-header .table-header-left h2 {
+    font-size: 30px;
+   }
+    
+   section.table  .table-header-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 20px;
+
+   }
+
+   .table-header {  
+    flex-direction: column-reverse;   
+   }
+
+   .table-header .table-header-left ul li:first-child a {
+       white-space: pre;
+}
+   
+   .table-header .table-header-left ul
+    {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: nowrap;
+       padding-bottom:20px;
+       gap: 30px;
+       list-style: none;
+   }
+
+   .table-container table thead th {
+    border-bottom: 3px solid var(--h-color);
+    padding: 0px 20px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    color: var(--p-color);
+    
+}
+
+
+.table-container table thead th:not(.not-left) {
+    text-align: left;
+}
+
+
+.table-container table tbody tr {
+    border-bottom: 1px solid rgb(226, 224, 224);
+    padding: 0px 20px;
+}
+
+
+
+
+   /* ----- HOW-IT----- */
+   
+   
+   section.how-it-work .how-it-header p
+    {
+       width: 100%;
+   }
+   
+   section.how-it-work .how-it-work-content-up
+    {
+       gap: 0px;
+       text-align: center;
+       flex-wrap: wrap;
+   }
+
+
+   section.how-it-work .how-it-work-content-up  .how-it-same-card-up {
+
+    width: 25%;
+   }
+   
+   
+   
+   section.how-it-work .how-it-work-content-up .between-cards
+    {
+       display: none;
+   }
+   
+   
+   
+   section.how-it-work .how-it-work-content-down p 
+   {    width: 70%;
+       line-height: 1.5;
+       text-align: center;
+   }
+   
+   
+   
+   /* ----- WHAT-IS-ROCKIE ----- */
+   
+   section.what-is-rockie {
+    padding-left: 10px;
+   
+       flex-wrap: wrap;
+     
+   }
+   section.what-is-rockie .rockie-left-image .rockie-img img{
+    width: 110%;
+   }
+   section.what-is-rockie .rockie-texts h2 {
+    font-size: 30px;
+   }
+   section.what-is-rockie .rockie-texts {
+    padding: 90px 0px;
+   }
+   
+   section.what-is-rockie .rockie-left-image .rockie-img::before {
+       background-image: linear-gradient(to bottom right ,transparent, transparent);
+     
+   
+   }
+   
+   /* ----- FREE MONEY ----- */
+   
+   section.free-money 
+   {
+       flex-wrap: wrap;
+       padding-right: 0px;
+       padding-left: 10px;
+   }
+   
+   section.free-money .free-money-texts h2 {
+       font-size: 30px;
+       width: 100%;
+   }
+
+   section.free-money .free-money-image img{
+    width: 100%;
+   }
+   
+   
+   
+   /* ----- OUR-CUSTOMERS ----- */
+   
+   
+   
+   section.our-customers
+    {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 90px 28px;
+   gap: 40px;
+   }
+   
+   section.our-customers .our-customers-left 
+   {
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       width: 100%;
+   }
+   section.our-customers .our-customers-left h2 {
+    font-size: 29px;
+   }
+
+   
+   
+   section.our-customers .our-customers-right
+    {
+       position: relative;
+       width: 100%;
+       padding-right: 0px;
+      
+   }
+   
+   
+   /* ----- EARN-UP ----- */
+   section.earn-up {
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: flex-start;
+    gap: 30px;
+   }
+   
+   section.earn-up .earn-up-left  {
+       width: 100%;
+   }
+   section.earn-up .earn-up-left h3 {
+       width: 80%;
+   }
+
+}
+
+
+
+
+
+
+@media (max-width: 991px) and (min-width: 767px) {
+
+
+    /* -----CRYPTO----- */
+
+.crypto-content-container .crypto-header ul
+
+{
+    display: flex;
+    padding-bottom: 20px;
+    gap: 20px;
+    list-style: none;
+    border-bottom: 1px solid rgb(223, 219, 219);
+}
+
+
+.crypto-content
+ {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 30px;
+
+}
+
+
+.crypto-content .same-content 
+{
+    width: 48%;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+
+
+/* ------TABLE------ */
+
+
+section.table 
+{
+    padding: 50px 10px;
+    padding-top: 420px;
+}
+
+
+.table-header .table-header-left ul
+ {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    gap: 42px;
+    list-style: none;
+}
+
+
+/* ----- HOW-IT----- */
+
+
+section.how-it-work .how-it-header p
+ {
+    width: 100%;
+}
+
+section.how-it-work .how-it-work-content-up
+ {
+    gap: 0px;
+    text-align: center;
+}
+
+
+section.how-it-work .how-it-work-content-up .between-cards
+ {
+    width: 14%;
+}
+
+
+
+section.how-it-work .how-it-work-content-down p 
+{    width: 70%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+/* ----- WHAT-IS-ROCKIE ----- */
+
+section.what-is-rockie {
+
+    flex-wrap: wrap;
+  
+}
+
+
+section.what-is-rockie .rockie-left-image .rockie-img::before {
+    background-image: linear-gradient(to bottom right ,transparent, transparent);
+  
+
+}
+
+/* ----- FREE MONEY ----- */
+
+section.free-money 
+{
+    flex-wrap: wrap;
+}
+
+section.free-money .free-money-texts h2 {
+    font-size: 45px;
+    width: 100%;
+}
+
+
+
+/* ----- OUR-CUSTOMERS ----- */
+
+
+
+section.our-customers
+ {
+display: flex;
+flex-wrap: wrap;
+padding: 90px 30px;
+gap: 40px;
+}
+
+section.our-customers .our-customers-left 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+
+section.our-customers .our-customers-right
+ {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+   
+}
+
+
+/* ----- EARN-UP ----- */
+
+
+section.earn-up .earn-up-left  {
+    width: 62%;
+}
+section.earn-up .earn-up-left h3 {
+    width: 70%;
+}
+
+}
