@@ -9,9 +9,9 @@ My achievements were:
 - Creating a static website
 - Flexbox
 - Positions
-- Different hover effects
-- Creating navbar and main HTML attributes
-- Aminations
+- Different hover effects (Gradients)
+- Tables
+- Getting objects with divs
 - Responsive Desing ( There are some problems with media queries because of it was one of the project between my first projects)
 
 
@@ -21,7 +21,7 @@ My achievements were:
 
 ```
 
-## To see project <a href="https://github.com/anilcosarss/Rockie/blob/main/index.html">Click Here!</a> 
+## To see project <a href="https://raw.githack.com/anilcosarss/Rockie/main/index.html">Click Here!</a> 
 
 ![alt text](https://github.com/anilcosarss/gainio/blob/main/img/screencapture-raw-githack-anilcosarss-gainio-main-index-html-2023-03-13-01_13_32.png
 )
